@@ -7,7 +7,7 @@ in {
   # Install Packages For The User
   home.packages = with pkgs; [
     pkgs."${browser}" discord libvirt swww grim slurp pkgs.file-roller
-    swaynotificationcenter rofi-wayland imv transmission-gtk mpv
+    swaynotificationcenter rofi-wayland imv mpv
     gimp obs-studio rustup audacity pavucontrol tree protonup-qt
     font-awesome spotify swayidle neovide swaylock
     # (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
