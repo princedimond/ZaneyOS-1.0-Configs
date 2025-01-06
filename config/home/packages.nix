@@ -9,7 +9,7 @@ in {
     pkgs."${browser}" discord libvirt swww grim slurp pkgs.file-roller
     swaynotificationcenter rofi-wayland imv mpv
     gimp obs-studio rustup audacity pavucontrol tree protonup-qt
-    font-awesome spotify swayidle neovide swaylock
+    font-awesome spotify swayidle neovide swaylock fastfetch
     # (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
     # Import Scripts
     (import ./../scripts/emopicker9000.nix { inherit pkgs; })
