@@ -4,6 +4,7 @@
   # List services that you want to enable:
   services.openssh.enable = true;
   services.fstrim.enable = true;
+  services.expressvpn.enable = true;
   xdg.portal = {
     enable = true;
     extraPortals = [ pkgs.xdg-desktop-portal-gtk

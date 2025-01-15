@@ -13,7 +13,8 @@
     noto-fonts-color-emoji material-icons brightnessctl
     toybox virt-viewer swappy ripgrep appimage-run 
     networkmanagerapplet yad playerctl nh gitkraken 
-    github-desktop bitwarden ferdium
+    github-desktop bitwarden ferdium expressvpn protonvpn-gui
+    orca-slicer
   ];
 
   programs = {
@@ -35,4 +36,5 @@
   };
 
   virtualisation.libvirtd.enable = true;
+  
 }
