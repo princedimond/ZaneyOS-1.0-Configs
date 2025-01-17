@@ -14,7 +14,7 @@
     toybox virt-viewer swappy ripgrep appimage-run 
     networkmanagerapplet yad playerctl nh gitkraken 
     github-desktop bitwarden ferdium expressvpn protonvpn-gui
-    orca-slicer
+    orca-slicer helix helix-gpt
   ];
 
   programs = {
