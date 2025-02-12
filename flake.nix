@@ -21,7 +21,7 @@
   outputs = inputs@{ nixpkgs, home-manager, impermanence, ... }:
   let
     system = "x86_64-linux";
-    host = "PD-D6WTP12";
+    host = "PD-CNU3179RPD";
     inherit (import ./hosts/${host}/options.nix) username hostname;
 
     pkgs = import nixpkgs {
