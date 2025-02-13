@@ -15,7 +15,7 @@
     networkmanagerapplet yad playerctl nh gitkraken 
     github-desktop bitwarden ferdium expressvpn protonvpn-gui
     orca-slicer helix helix-gpt pkgs.gnome-disk-utility vlc 
-    mission-center ext4magic extundelete
+    mission-center
   ];
 
   programs = {
