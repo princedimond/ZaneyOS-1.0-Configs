@@ -13,7 +13,7 @@
     noto-fonts-color-emoji material-icons brightnessctl
     toybox virt-viewer swappy ripgrep appimage-run 
     networkmanagerapplet yad playerctl nh gitkraken 
-    github-desktop bitwarden ferdium expressvpn protonvpn-gui
+    github-desktop bitwarden ferdium protonvpn-gui
     orca-slicer helix helix-gpt pkgs.gnome-disk-utility vlc 
     mission-center vscode
   ];
