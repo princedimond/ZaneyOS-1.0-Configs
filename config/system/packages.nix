@@ -15,7 +15,7 @@
     networkmanagerapplet yad playerctl nh gitkraken 
     github-desktop bitwarden ferdium protonvpn-gui
     orca-slicer helix helix-gpt pkgs.gnome-disk-utility vlc 
-    mission-center vscode
+    mission-center vscode 
   ];
 
   programs = {
