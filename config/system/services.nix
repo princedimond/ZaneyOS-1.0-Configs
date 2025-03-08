@@ -5,6 +5,8 @@
   services.openssh.enable = true;
   services.fstrim.enable = true;
   # services.expressvpn.enable = true;
+  virtualisation.podman.enable = true;
+  virtualisation.podman.dockerCompat = true;
   xdg.portal = {
     enable = true;
     extraPortals = [ pkgs.xdg-desktop-portal-gtk

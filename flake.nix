@@ -28,6 +28,7 @@
       inherit system;
       config = {
 	    allowUnfree = true;
+            permittedInsecurePackages = "electron-27.3.11";
       };
     };
   in {
@@ -40,6 +41,14 @@
         };
 	modules = [ 
 	  ./system.nix
+          {
+          nixpkgs.config = {
+            allowUnfree = true;
+            permittedInsecurePackages = [
+              "electron-27.3.11"
+            ];
+          };
+        }
 	  impermanence.nixosModules.impermanence
           home-manager.nixosModules.home-manager {
 	    home-manager.extraSpecialArgs = {
