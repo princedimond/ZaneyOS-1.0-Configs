@@ -13,10 +13,7 @@
     noto-fonts-color-emoji material-icons brightnessctl
     toybox virt-viewer swappy ripgrep appimage-run 
     networkmanagerapplet yad playerctl nh gitkraken 
-    github-desktop bitwarden ferdium protonvpn-gui
-    orca-slicer logseq anki pkgs.gnome-disk-utility vlc 
-    mission-center vscode podman podman-desktop zoom-us
-    librespeed-cli
+    orca-slicer helix helix-gpt pkgs.gnome-disk-utility vlc 
   ];
 
   programs = {
