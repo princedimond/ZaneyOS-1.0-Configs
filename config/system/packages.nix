@@ -13,7 +13,9 @@
     noto-fonts-color-emoji material-icons brightnessctl
     toybox virt-viewer swappy ripgrep appimage-run 
     networkmanagerapplet yad playerctl nh gitkraken 
-    orca-slicer helix helix-gpt pkgs.gnome-disk-utility vlc 
+    orca-slicer evil-helix helix-gpt pkgs.gnome-disk-utility vlc
+    affine vscode onlyoffice-desktopeditors appflowy
+    notion-app-enhanced putty
   ];
 
   programs = {
