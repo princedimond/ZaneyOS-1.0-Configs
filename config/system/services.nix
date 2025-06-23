@@ -50,6 +50,8 @@
   hardware.bluetooth.enable = true; # enables support for Bluetooth
   hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
   services.blueman.enable = true;
+  virtualisation.podman.dockerSocket.enable = true;
+  virtualisation.podman.enable = true;
   #services.expressvpn.enable = true;
   security.pam.services.swaylock = {
     text = ''

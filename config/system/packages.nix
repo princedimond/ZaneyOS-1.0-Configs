@@ -14,8 +14,8 @@
     toybox virt-viewer swappy ripgrep appimage-run 
     networkmanagerapplet yad playerctl nh gitkraken 
     orca-slicer evil-helix helix-gpt pkgs.gnome-disk-utility vlc
-    affine vscode onlyoffice-desktopeditors appflowy
-    notion-app-enhanced putty
+    affine vscode onlyoffice-desktopeditors appflowy ferdium
+    notion-app-enhanced putty podman podman-desktop podman-tui
   ];
 
   programs = {
